@@ -144,11 +144,10 @@ public class MainFrame extends JFrame {
     }
     private void sendMessage() {
         try {
-// Получаем необходимые параметры
+            // Получаем необходимые параметры
             final String senderName = textFieldFrom.getText();
             final String destinationAddress = textFieldTo.getText();
             final String message = textAreaOutgoing.getText();
-
             // Проводим проверку корректности адреса
             // Выставляем флаг корректности.
             // Если true, то адрес корректен. false - некорректен
